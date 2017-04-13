@@ -34,39 +34,39 @@
   
   <h2>Step 4:</h2>
   <h3>Open two terminal windows. <br> 
-    <img src="terminals.png">
+    <img src="terminals.png"> <br>
     Navigate one of them to the directory that you saved the jar file. <br> 
     <pre><code>cd Desktop</code></pre></h3>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20desktop.png?raw=true">
+  <img src="terminal desktop.png">
   <h2>Step 5:</h2>
   <h3>Copy the jar file to the robot's Raspberry Pi.<br>
     <pre><code>scp CleverRPiRobot.jar pi@rpi7:</code></pre>
      Change the '7' to the actualy number of your robot.<br>
-    <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/20170412_170412.jpg?raw=true"><br>
+    <img src="20170412_170412.jpg"><br>
     Type 'yes' when  prompted. This should only happen the first time.</h3>
-    <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/termianl%20yes.png?raw=true"> <br>
+    <img src="terminal yes.png"> <br>
    
   <h3>If you get the following error, make sure that the Rasperry Pi is connected to the robot.</h3>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20error.png?raw=true">
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/20170412_164638.jpg?raw=true"> <br>
+  <img src="terminal error.png">
+  <img src="20170412_164638.jpg"> <br>
   <h3>When prompted for the password, type in 'pi'.</h3><br>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20password.png?raw=true">
+  <img src="terminal password.png">
   <h3>If the transfer was successful, you should see this:</h3> <br>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20copy%20success.png?raw=true">
+  <img src="terminal copy success.png">
   
   
   <h2>Step 6:</h2>
   <h3>In the other terminal window, connect to the robot's Rasperry Pi. <br>
   <pre><code>ssh pi@rpi7.local</code></pre>
   Change the '7' to the actualy number of your robot.</h3>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20ssh.png?raw=true"> <br>
+  <img src="terminal ssh.png"> <br>
   <h3>If successfully connected, it should look like this: </h3> <br>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20pi%20connected.png?raw=true">
+  <img src="terminal pi connected.png">
   
   <h2>Step 7:</h2>
   <h3>Once connected to the Pi, you can run the program. Be sure to use 'sudo'.<br>
   <pre><code>sudo java -jar CleverRPiRobot.jar</code></pre></h3> <br>
-  <img src="https://github.com/league-iaroc/iRobotCreate_Setup_Instructions/blob/master/terminal%20success.png?raw=true">
+  <img src="terminal success.png">
   
   <h2>Step 8:</h2>
   <h3>If the robot starts to beep, then it is ready to run your code. Press the 'clean' button on the robot to start the program.</h3>
